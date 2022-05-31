@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+# 这里注意下  地址必须写这个后缀（eureka）
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+    fetch-registry: false
+    register-with-eureka: false
+
