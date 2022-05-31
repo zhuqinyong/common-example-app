@@ -1,6 +1,8 @@
 server:
   port: 10086
 
+# 这里注意下  地址必须写这个后缀（eureka）
+
 eureka:
   client:
     service-url:
